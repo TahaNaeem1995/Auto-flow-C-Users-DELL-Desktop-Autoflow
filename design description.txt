@@ -1,0 +1,6 @@
+Main Title: be carefull about weight.
+Logo: there is container and it has three child, one text "Auto", second is an image of electric spark nad it has to be download from there,and the third one is "low."
+Stars in the background: left right both, it sould not to be under or above the header.
+shade decoration above the  title: be carefull about box shadow effect, (MEET THE DEVELOPER): box shadow is inset x,y settings from figma very carefully.
+primary button: background gradient should be from top to bottom and copy color hex codes from figma.
+Navbar underline glow:

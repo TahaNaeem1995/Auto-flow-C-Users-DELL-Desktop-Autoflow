@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding:  0;
+}
+
+body {
+    height: 100vh;
+    background: rgb(16, 136, 98);
+    padding: 30px;
+}
+
+.navbar {
+    box-shadow: 0px 4px 15px -5px black;
+    background:     rgb(30, 30, 30);
+    color: white;
+    border: 1px solid white;
+    border-radius: 9999px;
+    padding: 25px 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar ul {
+    font-family: Calibri;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+
+.navbar .line-slide {
+    position: absolute;
+    left: 0;
+    width: 138%;
+}
+
+.navbar .glow-container {
+    left: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .glow-container .line {
+    width: 50px;
+    height: 2px;
+    background: white;
+}
+
+.navbar .glow-container .glow {
+    position: absolute;
+    height: 2px;
+    width: 5px;
+    background: white;
+    box-shadow: 0px 0px 20px 5px white;
+}
+
+.navbar .glow-container .black {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: 2px;
+    background: rgb(30, 30, 30);
+}
+
+.button {
+    margin: 50px;
+    border-radius: 999px;
+    display: inline-flex;
+    color: white;
+    padding: 15px 30px;
+    position: relative;
+    box-shadow: inset 3px 3px 3px 0px white, inset -3px -3px 3px 0px rgb(30, 30, 30);
+    font-family: Calibri;
+    background: #61048f;
+    /* background: linear-gradient(90deg, black, #61048f); */
+    
+}
